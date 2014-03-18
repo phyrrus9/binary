@@ -1,0 +1,11 @@
+Simple typeless binary tree written entirely in C.
+Usage:
+run make all to build the library
+a pointer to an object must be passed to insert with the following properties:
+	the first sizeof(int) bytes must be the index key (unique as possible)
+	the second sizeof(int) bytes must be the size of the entire object
+	the remainder can be data (or empty, if wished)
+The library is very simple to use, just look at functions.h and it becomes clear
+
+
+Copyright © 2014 Ethan Laur (phyrrus9)
